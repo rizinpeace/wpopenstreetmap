@@ -1,0 +1,40 @@
+{
+  "name": "openstreetmap-block",
+  "version": "1.0.0",
+  "description": "A WordPress block plugin for displaying OpenStreetMap maps with custom markers and popups",
+  "main": "openstreetmap.php",
+  "scripts": {
+    "build": "echo 'Build process not configured yet'",
+    "dev": "echo 'Development process not configured yet'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "block",
+    "openstreetmap",
+    "leaflet",
+    "maps",
+    "markers"
+  ],
+  "author": "Rizboy",
+  "license": "GPL-2.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/openstreetmap-block.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/openstreetmap-block/issues"
+  },
+  "homepage": "https://github.com/yourusername/openstreetmap-block#readme",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 

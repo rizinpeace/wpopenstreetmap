@@ -1,0 +1,110 @@
+/* OpenStreetMap Block Editor Styles */
+
+.wp-block-openstreetmap-map .osm-map-container {
+    margin: 0;
+}
+
+.wp-block-openstreetmap-map .osm-map-title {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+.wp-block-openstreetmap-map .osm-map {
+    border: 2px dashed #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #f9f9f9;
+    position: relative;
+}
+
+.wp-block-openstreetmap-map .osm-map::before {
+    content: "Map Preview";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    z-index: 1000;
+}
+
+/* Inspector Controls Styling */
+.components-panel__body .components-base-control {
+    margin-bottom: 16px;
+}
+
+.components-panel__body .components-base-control:last-child {
+    margin-bottom: 0;
+}
+
+.components-panel__body .components-text-control__input {
+    width: 100%;
+}
+
+.components-panel__body .components-range-control__slider {
+    width: 100%;
+}
+
+/* Marker Item Styling */
+.components-panel__body .marker-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.components-panel__body .marker-item h4 {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.components-panel__body .marker-item .components-base-control {
+    margin-bottom: 12px;
+}
+
+.components-panel__body .marker-item .components-base-control:last-child {
+    margin-bottom: 8px;
+}
+
+/* Button Styling */
+.components-panel__body .components-button {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.components-panel__body .components-button:last-child {
+    margin-right: 0;
+}
+
+/* Media Upload Styling */
+.components-panel__body .components-media-upload {
+    margin-bottom: 16px;
+}
+
+.components-panel__body .components-media-upload img {
+    display: block;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+/* Notice Styling */
+.wp-block-openstreetmap-map .components-notice {
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 782px) {
+    .wp-block-openstreetmap-map .osm-map {
+        height: 300px !important;
+    }
+    
+    .components-panel__body .marker-item {
+        padding: 8px;
+    }
+} 
